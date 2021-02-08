@@ -23,9 +23,6 @@ function playSong(){
 
 // gets called automatically when YouTube player loads
 function onYouTubeIframeAPIReady() {
-  // sets the size of the player to 0
-  // because we don't want to watch the videos,
-  // only to trigger music playback
   player = new YT.Player('yt-player', {
     height: '300',
     width: '400',
